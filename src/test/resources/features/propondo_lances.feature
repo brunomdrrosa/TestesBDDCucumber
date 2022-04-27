@@ -22,3 +22,11 @@ Esquema do Cenário: Propondo um lance inválido
   | valor | nomeUsuario |
   |    0  |    fulano   |
   |   -1  |   beltrano  |
+
+  Cenário: Propondo uma sequência de lances
+ Dado dois lances
+  | valor | nomeUsuario |
+  | 10.0  |   beltrano  |
+  | 15.0  |   beltrano  |
+ Quando propõe vários lances ao leilão
+ Então o segundo lance não é aceito
