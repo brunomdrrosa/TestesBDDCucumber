@@ -23,7 +23,7 @@ Esquema do Cenário: Propondo um lance inválido
   |    0  |    fulano   |
   |   -1  |   beltrano  |
 
-  Cenário: Propondo uma sequência de lances
+Cenário: Propondo uma sequência de lances
  Dado dois lances
   | valor | nomeUsuario |
   | 10.0  |   beltrano  |
